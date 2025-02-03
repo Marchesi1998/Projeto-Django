@@ -10,3 +10,6 @@ Criação do models e migrações
 
 python manage.py makemigrations 
 python manage,py migrate
+
+Implementação dos Templates 
+Definindo as Views
