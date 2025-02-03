@@ -7,3 +7,6 @@ django-admin startproject myproject
 python manage.py startapp products
 
 Criação do models e migrações
+
+python manage.py makemigrations 
+python manage,py migrate

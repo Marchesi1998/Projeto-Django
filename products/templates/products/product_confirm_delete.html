@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excluir Produto</title>
+</head>
+<body>
+    <h1>Excluir Produto</h1>
+    <p>Tem certeza que deseja excluir "{{ product.nome }}" ?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Confirmar</button>
+        <a href="{% url 'product_list' %}">Cancelar</a>
+    </form>
+</body>
+</html>
