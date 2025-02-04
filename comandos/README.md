@@ -12,4 +12,7 @@ python manage.py makemigrations
 python manage,py migrate
 
 Implementação dos Templates 
-Definindo as Views
+Definindo as Views e caminhos da urls
+Melhorando o layout 
+
+
