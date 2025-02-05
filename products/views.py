@@ -12,6 +12,7 @@ def product_create(request):
         if form.is_valid():
             form.save()
             return redirect('product_list')
+        return render(request, 'products/product_form.html' , {'form': form})
     else:
         form = ProductForm()
         return render(request, 'products/product_form.html', {'form': form})

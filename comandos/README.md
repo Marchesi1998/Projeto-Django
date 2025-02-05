@@ -14,5 +14,6 @@ python manage,py migrate
 Implementação dos Templates 
 Definindo as Views e caminhos da urls
 Melhorando o layout 
+Criando validacoes
 
 
