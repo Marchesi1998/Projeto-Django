@@ -67,4 +67,4 @@ Siga estas etapas para configurar e executar o projeto em sua máquina local.
 6. Abra o navegador e acesse: 
 
 ```bash
-http://127.0.0.1:8000/products/
+http://127.0.0.1:8000/
