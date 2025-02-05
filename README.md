@@ -57,14 +57,21 @@ Siga estas etapas para configurar e executar o projeto em sua máquina local.
     python manage.py migrate
     ```
 
-5. **Execute o servidor de desenvolvimento:**
+5. **Execute os testes:**
+
+    ```bash
+    python manage.py test
+    ```
+
+6. **Execute o servidor de desenvolvimento:**
 
     ```bash
     python manage.py runserver
     ```
     ## Acesse o Projeto
 
-6. Abra o navegador e acesse: 
+7. Abra o navegador e acesse: 
 
-```bash
-http://127.0.0.1:8000/
+    ```bash
+    http://127.0.0.1:8000/
+    ```
